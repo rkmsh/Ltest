@@ -17,6 +17,9 @@ public class LoadTestShellCommand {
         this.loadTester = loadTester;
     }
 
+    /*
+    ltest -> command to invoke
+     */
     @Command(command = "ltest", description = "Run Load Test")
     public String run(
             @Option(longNames = "n", shortNames = 'n', required = true, description = "Number of requests") int totalRequests,
