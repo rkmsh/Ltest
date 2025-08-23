@@ -18,7 +18,7 @@ public class LoadTestShellCommand {
     }
 
     /*
-    ltest -> command to invoke
+    ltest => command to invoke
      */
     @Command(command = "ltest", description = "Run Load Test")
     public String run(
